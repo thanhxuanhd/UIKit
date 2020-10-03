@@ -1,0 +1,43 @@
+.form-content {
+  height: 650px;
+  background: #fff;
+  card {
+    border-radius: 0;
+  }
+  .form-link {
+    text-decoration: none;
+    color: #2e5bff;
+  }
+  .left-content-form > form {
+    height: 650px;
+  }
+  .form-pading {
+    padding: 5rem;
+  }
+  .btn-orange {
+    background-color: #f57522;
+    border-color: #f57522;
+  }
+  .right-content-form-1 {
+    background: url("/assets/images/sign-in-form-first.jpg") no-repeat -20px;
+    background-size: 700px;
+    height: 650px;
+  }
+
+  .right-content-form-2 {
+    background: url("/assets/images/sign-in-form-second.jpg") no-repeat -20px;
+    background-size: 700px;
+    height: 650px;
+  }
+
+  .left-content-form-1 {
+    background: url("/assets/images/sign-in-form-third.jpg") no-repeat -30px;
+    background-size: 700px;
+    height: 650px;
+  }
+  .left-content-form-2 {
+    background: url("/assets/images/sign-in-form-fourth.jpg") no-repeat -31px;
+    background-size: 700px;
+    height: 650px;
+  }
+}

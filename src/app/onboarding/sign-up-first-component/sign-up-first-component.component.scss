@@ -1,0 +1,34 @@
+.form-content {
+  height: 650px;
+  background: #fff;
+  margin: 0 auto;
+  card {
+    border-radius: 0;
+  }
+  .form-link {
+    text-decoration: none;
+    color: #2e5bff;
+  }
+  .left-content-form > form {
+    height: 650px;
+  }
+  .form-pading {
+    padding: 4rem 5rem;
+  }
+
+  .left-content-form-1 {
+    background-color: #2e5bff;
+    height: 650px;
+  }
+  .tab-border-bottom-active {
+    border-bottom: 3px solid #2e5bff;
+  }
+
+  .tab-border-bottom-inactive {
+    border-bottom: 3px solid #e0e7ff;
+  }
+
+  .button-primary {
+    background-color: #2e5bff;
+  }
+}
