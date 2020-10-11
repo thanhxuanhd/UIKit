@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class SignUpFirstComponentComponent implements OnInit {
 
   openTab = 1;
+  openTab2 = 1;
   constructor() { }
 
   ngOnInit(): void {
@@ -15,5 +16,9 @@ export class SignUpFirstComponentComponent implements OnInit {
 
   toggleTabs($tabNumber: number): void {
     this.openTab = $tabNumber;
+  }
+
+  toggleTabs2($tabNumber: number): void {
+    this.openTab2 = $tabNumber;
   }
 }

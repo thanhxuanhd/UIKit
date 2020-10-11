@@ -5,15 +5,15 @@
         <!-- Mobile menu button-->
         <button
           class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white transition duration-150 ease-in-out"
-          aria-label="Main menu" aria-expanded="false">
+          aria-label="Main menu" aria-expanded="false" (click)="expandMenu($event)">
           <!-- Icon when menu is closed. -->
           <!--
             Heroicon name: menu
 
             Menu open: "hidden", Menu closed: "block"
           -->
-          <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor">
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" [ngClass]="{'sm:hidden hidden': toggleMenu, 'sm:block md:hidden xl:hidden lg:hidden block': !toggleMenu}">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
           <!-- Icon when menu is open. -->
@@ -22,8 +22,8 @@
 
             Menu open: "block", Menu closed: "hidden"
           -->
-          <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor">
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" [ngClass]="{'sm:hidden hidden': !toggleMenu, 'sm:block md:hidden xl:hidden lg:hidden': toggleMenu}">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
@@ -51,7 +51,7 @@
 
     Menu open: "block", Menu closed: "hidden"
   -->
-  <div class="hidden sm:hidden">
+  <div [ngClass]="{'sm:hidden hidden': !toggleMenu, 'sm:block md:hidden xl:hidden lg:hidden': toggleMenu}">
     <div class="px-2 pt-2 pb-3">
       <a [routerLink]="['signinfirst']"
         class="px-3 py-2 rounded-md text-sm font-medium leading-5  text-gray-800 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-outk"
@@ -63,5 +63,5 @@
   </div>
 </nav>
 <div class="container mx-auto mt-5">
-    <router-outlet></router-outlet>
+  <router-outlet></router-outlet>
 </div>
