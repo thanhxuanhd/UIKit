@@ -19,7 +19,7 @@
     background-color: #2e5bff;
   }
   .left-content-form-2 {
-    background-color: #F9FAFF;
+    background-color: #f9faff;
   }
   .tab-border-bottom-active {
     border-bottom: 3px solid #2e5bff;
@@ -32,9 +32,35 @@
   .button-primary {
     background-color: #2e5bff;
   }
+
+  .form-content-background {
+    background: url("/assets/images/form-content-background.png") no-repeat;
+  }
+
+  .form-content-background-2 {
+    background: url("/assets/images/form-content-background-2.png") no-repeat;
+  }
+
+  .text-brown {
+    color: #a99a77;
+  }
+  .tab-border-bottom-inactive-brown {
+    border-bottom: 3px solid #e0e7ff;
+  }
+  .tab-border-bottom-active-brown {
+    border-bottom: 3px solid #a99a77;
+  }
+  .button-brown {
+    background-color: #a99a77;
+  }
+
   /* Small (sm) */
   @media (max-width: 640px) {
-    .sign-up-form-first-images{
+    .sign-up-form-first-images {
+      width: 0;
+    }
+
+    .sign-up-form-third-images {
       width: 0;
     }
   }

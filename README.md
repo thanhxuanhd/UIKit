@@ -6,7 +6,7 @@ List of UI source is
 
 |             UI                 |     Status    |              |
 |   ------------------------     | ------------- | ------------ |
-|   Sign Up Onboarding Free UI   |  In progress  |  [Download](https://uigarage.net/ui-kit/sign-up-onboarding-free-ui-kit-for-adobe-xd/)           |
+|   Sign Up Onboarding Free UI   |  Completed  |  [Download](https://uigarage.net/ui-kit/sign-up-onboarding-free-ui-kit-for-adobe-xd/)           |
 
 
 ## Development server
