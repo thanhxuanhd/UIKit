@@ -1,0 +1,65 @@
+$primary-background: #131419;
+$second-background: #1c1c24;
+$third-background: #2D2D3A;
+$text-primary: #fff;
+$text-second: #5f5f6e;
+$button-primary: #4447e2;
+$button-primary-in-active: #2D2D3A;
+
+
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: $primary-background;
+}
+
+.app-content-wrapper {
+  height: 100%;
+  min-height: 100%;
+}
+
+.nav-top {
+  background: $second-background;
+  .active {
+    color: $text-primary;
+  }
+  .in-active {
+    color: $text-second;
+  }
+  .in-active:hover {
+    color: $text-primary;
+  }
+
+  .bg-third {
+    background: $third-background;
+  }
+
+  .avatar {
+    color: $text-primary;
+    .button-expland {
+      color: $button-primary-in-active;
+    }
+  }
+}
+
+.button-primary {
+  background: $button-primary;
+  color: $text-primary;
+}
+
+.button-secondary {
+  background: $button-primary-in-active;
+  color: $text-primary;
+}
+
+.task-container {
+  color: $text-primary;
+}
+
+.footer {
+  background: $second-background;
+  color: $text-second;
+}
