@@ -7,7 +7,7 @@ List of UI source is
 | UI                                  | Status      |                                                                                      |
 | ----------------------------------- | ----------- | ------------------------------------------------------------------------------------ |
 | Sign Up Onboarding Free UI          | Completed   | [Download](https://uigarage.net/ui-kit/sign-up-onboarding-free-ui-kit-for-adobe-xd/) |
-| Web Service – Free UI Kit for Figma | In-progress | [Dowload](https://uigarage.net/ui-kit/web-service-free-ui-kit-for-figma/)            |
+| Web Service – Free UI Kit for Figma | In-progress | [Download](https://uigarage.net/ui-kit/web-service-free-ui-kit-for-figma/)            |
 
 ## Development server
 
