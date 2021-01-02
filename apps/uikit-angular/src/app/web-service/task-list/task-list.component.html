@@ -20,7 +20,7 @@
 
   <div class="task-item-container mt-5 grid gap-5 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
     <app-task-list-item [Item]="item" class="flex flex-col overflow-hidden"
-      *ngFor="let item of items; let i=index">
+      *ngFor="let item of tasks; let i=index">
     </app-task-list-item>
   </div>
 </div>

@@ -3,3 +3,9 @@ export interface IWebServiceItem {
   description: string;
   image: string;
 }
+
+export interface INewItem {
+  thumbnail: string;
+  titile: string;
+  created: Date;
+}

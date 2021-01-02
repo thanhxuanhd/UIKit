@@ -1,4 +1,32 @@
-<div class="task-container mt-5 mb-5 container m-auto w-full sm:p-3">
-  <div class="flex w-full">
+<div class="news-container mt-5 mb-5 container m-auto w-full sm:p-3">
+  <div class="flex">
+    <div class="w-full">
+      <h1 class="text-2xl font-medium mt-2 mb-2">Most popular</h1>
+    </div>
+  </div>
+  <div class="w-full mt-2 banner rounded-lg flex p-5">
+    <div class="w-1/2">
+      <img src="assets/images/web-service/banner.png" alt="banner-image" class="rounded-lg" />
+    </div>
+    <div class="w-1/2 p-5">
+      <div class="title text-4xl sm:text-xl xs:text-xl md:text-xl lg:text-4xl font-light">Dribbble Russia VK Community
+        officially launched!</div>
+      <div class="description mt-5 font-light">Send your portfolio to our manager on e-mail and get a chance to be a
+        part of our new
+        big Dribbblers group!</div>
+      <div class="sub-description mt-5 font-light">Aug 14, 2020</div>
+    </div>
+  </div>
+
+  <div class="flex">
+    <div class="w-full">
+      <h1 class="text-2xl font-medium mt-2 mb-2">Last news</h1>
+    </div>
+  </div>
+
+  <div class="new-item-container mt-5 grid gap-5 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+    <app-new-item [Item]="item" class="flex flex-col overflow-hidden"
+      *ngFor="let item of news; let i=index">
+    </app-new-item>
   </div>
 </div>

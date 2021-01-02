@@ -1,0 +1,15 @@
+<div class="new-item rounded-lg h-auto">
+  <div class="p-4">
+    <div class="img-thumbnail ">
+      <img [src]="Item.thumbnail" alt="{{Item.titile}}" class="rounded-lg" />
+    </div>
+    <div class="new-title font-light font-bold mt-2">
+      <span class="text-lg">
+        {{Item.titile}}
+      </span>
+    </div>
+    <div class="new-created mt-2">
+      <span>{{Item.created | date: 'dd/MM/yyyy'}}</span>
+    </div>
+  </div>
+</div>

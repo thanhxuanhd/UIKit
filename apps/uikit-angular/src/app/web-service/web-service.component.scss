@@ -3,6 +3,7 @@ $second-background: #1c1c24;
 $third-background: #2d2d3a;
 $text-primary: #fff;
 $text-second: #5f5f6e;
+$text-third: #A6ADB1;
 $button-primary: #4447e2;
 $button-primary-in-active: #2d2d3a;
 
@@ -50,14 +51,14 @@ body {
 }
 
 .button-secondary {
-  background: $button-primary-in-active;
+  background: $second-background;
   color: $text-primary;
 }
 
 .task-container {
   color: $text-primary;
   .task-item {
-    background: $third-background;
+    background: $second-background;
 
     .description {
       color: $text-second;
@@ -72,6 +73,22 @@ body {
       background: $button-primary;
       border: 2px solid $button-primary;
     }
+  }
+}
+
+.news-container {
+  color: $text-primary;
+  .banner {
+    background: $second-background;
+  }
+
+  .new-item {
+    background: $second-background;
+    min-height: 470px;
+  }
+
+  .new-created{
+    color: $text-third;
   }
 }
 
